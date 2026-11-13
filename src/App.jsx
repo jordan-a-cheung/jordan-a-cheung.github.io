@@ -43,7 +43,9 @@ function App() {
             This site was last updated in <a href="https://open.spotify.com/playlist/6Dnw8und7r5k3dzfkmC2X4?si=7aab09d2a5bf4304">November 2026</a>.
             <br /><br />
             <i>Note: </i>
-              I am coding this website by hand to further develop my CS skills. I use AI for concept explanations and code examples, but no big chunks are copy-pasted. 
+              I am coding this website by hand to further develop my programming skills. 
+              I'm coding with React, JavaScript, and modern CSS. This page is deployed via GitHub Pages.
+              I use AI for concept explanations and code examples, but no big chunks are copy-pasted. 
               My goal is to understand what every line of code does.
           </p>
         </div>
