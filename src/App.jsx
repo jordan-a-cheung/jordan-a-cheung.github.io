@@ -1,8 +1,6 @@
-// import { useState } from 'react'
-// import heroImg from './assets/hero.png'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
-import jordanFace from '/jordan-in-portland.jpg'
+import jordanFace from './assets/home/jordan-in-portland.jpg'
+import resume from './assets/home/resume-jorch-10.25.26.pdf'
+import designBrief from './assets/home/JC - Final Design Brief - VCD.pdf'
 import './App.css'
 
 function App() {
@@ -16,7 +14,7 @@ function App() {
             <a href="/index.html">Jordan Cheung</a>
           </div>
         </h1>
-        <a href="resume-jorch-10.25.26.pdf" target="_blank">Resumé</a>
+        <a href={resume} target="_blank">Resumé</a>
         <a href="https://docs.google.com/document/d/1ZY5kjMerwqb-nljdBu77oV2R3gXiWMTi0CKA6PhmHTw/edit?usp=sharing" target="_blank">Writing</a>
         {/* <div class="subnav">Honors Portfolio
           <div class="subnav-content">
@@ -69,7 +67,7 @@ function App() {
         <br />
         <ul>
           <li><strong>Writing samples</strong>: <a href="https://docs.google.com/document/d/1ZY5kjMerwqb-nljdBu77oV2R3gXiWMTi0CKA6PhmHTw/edit?usp=sharing" target="_blank">Technical writing and instructional design works.</a></li>
-          <li><strong>Visual communications</strong>: My redesign of the <a href="JC - Final Design Brief - VCD.pdf" target="_blank">Seattle Jazz Fellowship brand system</a>.</li>
+          <li><strong>Visual communications</strong>: My redesign of the <a href={designBrief} target="_blank">Seattle Jazz Fellowship brand system</a>.</li>
           <li><strong>Service design</strong>: My team's end-to-end <a href="https://www.hcde.washington.edu/news/article/2026-08-25/how-hcde-students-helped-rainier-valley-food-bank-see-its-community-new" target="_blank">design improvements for a local food bank</a>.</li>
           <li><strong>Prototyping explorations</strong>: <a href="https://jxcheung.substack.com/t/hcde351" target="_blank">Mini projects</a>!</li>
           <li><strong>Physical computing adventures</strong>: <a href="https://jcheung321.github.io/hcde439/">Assignment documentation</a>!</li>
