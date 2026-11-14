@@ -40,16 +40,18 @@ function App() {
             I am an avid choral singer, graphic novel reader, and rock climber with hundreds of music playlists!
             This site was last updated in <a href="https://open.spotify.com/playlist/6Dnw8und7r5k3dzfkmC2X4?si=7aab09d2a5bf4304">November 2026</a>.
             <br /><br />
-            <i>Note: </i>
-              I am coding this website by hand to further develop my programming skills. 
-              I'm coding with React, JavaScript, and modern CSS. This page is deployed via GitHub Pages.
-              I use AI for concept explanations and code examples, but no big chunks are copy-pasted. 
-              My goal is to understand what every line of code does.
+            <div className="disclaimer">
+              <i>Note: </i>
+                I am coding this website by hand to further develop my programming skills. 
+                I'm coding with React, JavaScript, and modern CSS. This page is deployed via GitHub Pages.
+                I use AI for concept explanations and code examples, but no big chunks are copy-pasted. 
+                My goal is to understand what every line of code does.
+            </div>
           </p>
         </div>
 
         <div className="my-face">
-          <img src={jordanFace} height="400px" alt="Jordan on a balcony smiling with Portland in the background." />
+          <img src={jordanFace} alt="Jordan on a balcony smiling with Portland in the background." />
           <br />
           ✉️ <a href="mailto:jordanalexacheung@gmail.com">jordanalexacheung@gmail.com</a>
           <br />

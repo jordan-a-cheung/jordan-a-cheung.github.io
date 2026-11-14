@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  align-items: center;
+  /* min-height: 100vh; */
+  width: 80vw;
+  max-width: 1000px;
+  padding: 2rem;
+  margin-inline: auto;
+  @media (width < 900px) {
+    width: 95vw;
+    padding: 1rem;
+  }
+}
+
 .nav-bar {
   padding: .5rem 1rem;
   background-color: darkred;
@@ -15,6 +30,9 @@
   align-items: center;
   overflow: hidden;
   margin-bottom: 1rem;
+  @media (width < 900px) {
+    padding: .25rem .5rem;
+  }
 }
 
 .nav-bar a, .nav-bar a:link, .nav-bar a:visited {
@@ -79,15 +97,6 @@ svg {
   max-width: 100%;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  min-height: 100vh;
-  max-width: 1000px;
-  padding: 2rem;
-  margin-inline: auto;
-}
-
 h1 {
   font-size: 1.5rem;
   font-weight: normal;
@@ -98,15 +107,19 @@ footer {
   /* position: fixed;
   bottom: 20px;
   left: 0;
-  width: 100%;
-  text-align: center; */
+  width: 100%; */
+  text-align: center;
 }
 
 .about-me {
   display: flex;
   flex-direction: row;
-  /* align-items: center; */
+  align-items: flex-start;
   gap: 2rem;
+  @media (width < 900px) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .my-face {
@@ -114,10 +127,18 @@ footer {
   padding: 0 0 1rem 1rem; */
   text-align: center;
   flex-shrink: 0;
+  width: 20vw;
+  @media (width < 900px) {
+    flex-shrink: 1;
+    width: 50vw;
+    justify-items: center;
+    font-size: .8rem;
+  }
 }
 
 .bio {
-  flex: 1;
+  flex-shrink: 1;
+  align-self: center;
 }
 
 ul {
@@ -126,4 +147,8 @@ ul {
 
 li {
   margin-bottom: 0.5rem; 
+}
+
+.disclaimer {
+  font-size: .8rem;
 }
