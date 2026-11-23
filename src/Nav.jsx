@@ -9,7 +9,7 @@ function Nav() {
         <nav className="nav-bar">
             <h1>
                 <div className="wordmark">
-                <a href="/index.html">Jordan Cheung</a>
+                <a href="/">Jordan Cheung</a>
                 </div>
             </h1>
             <a href={resume} target="_blank">Resumé</a>
