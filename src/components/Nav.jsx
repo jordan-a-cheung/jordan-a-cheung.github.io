@@ -1,8 +1,8 @@
 // files
-import resume from './assets/home/resume-jorch-11.22.26.pdf'
+import resume from '../assets/home/resume-jorch-11.22.26.pdf'
 
 // styles
-import './App.css'
+import '../App.css'
 
 function Nav() {
     return (

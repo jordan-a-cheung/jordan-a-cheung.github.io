@@ -1,8 +1,8 @@
 // ma face
-import jordanFace from './assets/home/jordan-in-portland.jpg'
+import jordanFace from '../assets/home/jordan-in-portland.jpg'
 
 // styles
-import './App.css'
+import '../App.css'
 
 function About() {
     return (

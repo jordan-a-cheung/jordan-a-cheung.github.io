@@ -1,9 +1,9 @@
 // styles
-import './App.css'
+import '../App.css'
 
 // components
-import Nav from './Nav.jsx'
-import Foot from './Foot.jsx'
+import Nav from '../components/Nav.jsx'
+import Foot from '../components/Foot.jsx'
 
 function NotFound() {
   return (

@@ -1,5 +1,5 @@
 // styles
-import './App.css'
+import '../App.css'
 
 function Foot() {
     return (

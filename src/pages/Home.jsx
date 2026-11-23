@@ -1,11 +1,11 @@
 // styles
-import './App.css'
+import '../App.css'
 
 // components
-import Nav from './Nav.jsx'
-import About from './About.jsx'
-import Projects from './Projects.jsx'
-import Foot from './Foot.jsx'
+import Nav from '../components/Nav.jsx'
+import About from '../components/About.jsx'
+import Projects from '../components/Projects.jsx'
+import Foot from '../components/Foot.jsx'
 import Weather from './Weather.jsx'
 
 function Home() {

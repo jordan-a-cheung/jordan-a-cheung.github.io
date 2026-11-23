@@ -1,15 +1,15 @@
 // styles
-import './App.css'
+import '../App.css'
 
 // files
-import designBrief from './assets/home/JC - Final Design Brief - VCD.pdf'
+import designBrief from '../assets/projects/JC - Final Design Brief - VCD.pdf'
 
 // project images
-import writingPrev from './assets/home/projects/writing samples preview.png'
-import vcdPrev from './assets/home/projects/vcd preview.png'
-import rvfbPrev from './assets/home/projects/rvfb preview.png'
-import protoPrev from './assets/home/projects/proto preview.png'
-import physCompPrev from './assets/home/projects/physical computing preview.jpeg'
+import writingPrev from '../assets/projects/writing samples preview.png'
+import vcdPrev from '../assets/projects/vcd preview.png'
+import rvfbPrev from '../assets/projects/rvfb preview.png'
+import protoPrev from '../assets/projects/proto preview.png'
+import physCompPrev from '../assets/projects/physical computing preview.jpeg'
 
 function Projects () {
     return (
