@@ -61,11 +61,11 @@ function App() {
 
       </div>
 
-      <br />
+      {/* <br />
       <hr />
       <br />
 
-      {/* <div className="weather">
+      <div className="weather">
         <Weather />
       </div> */}
 

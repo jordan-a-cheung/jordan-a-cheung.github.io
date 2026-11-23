@@ -1,5 +1,7 @@
 import './App.css'
 
+const url = 'https://api.weather.gov/points/47.6555,-122.303200'
+
 function Weather() {
     return (
         <div>
