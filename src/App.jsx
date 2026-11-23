@@ -1,13 +1,22 @@
+// ma face
 import jordanFace from './assets/home/jordan-in-portland.jpg'
-import resume from './assets/home/resume-jorch-11.22.26.pdf'
+
+// components
+import Nav from './Nav.jsx'
+import Foot from './Foot.jsx'
+import Weather from './Weather.jsx'
+
+// files
 import designBrief from './assets/home/JC - Final Design Brief - VCD.pdf'
 
+// project images
 import writingPrev from './assets/home/projects/writing samples preview.png'
 import vcdPrev from './assets/home/projects/vcd preview.png'
 import rvfbPrev from './assets/home/projects/rvfb preview.png'
 import protoPrev from './assets/home/projects/proto preview.png'
 import physCompPrev from './assets/home/projects/physical computing preview.jpeg'
 
+// styles
 import './App.css'
 
 function App() {
@@ -15,24 +24,9 @@ function App() {
 
   return (
     <body>
-      <nav className="nav-bar">
-        <h1>
-          <div className="wordmark">
-            <a href="/index.html">Jordan Cheung</a>
-          </div>
-        </h1>
-        <a href={resume} target="_blank">Resumé</a>
-        <a href="https://docs.google.com/document/d/1ZY5kjMerwqb-nljdBu77oV2R3gXiWMTi0CKA6PhmHTw/edit?usp=sharing" target="_blank">Writing</a>
-        {/* <div class="subnav">Honors Portfolio
-          <div class="subnav-content">
-            <a href="/honors-portfolio/about-honors.html">About Honors</a>
-            <a href="/honors-portfolio/autumn-2026.html">Autumn 2026</a>
-          </div>
-        </div> */}
-      </nav>
+      <Nav />
 
       <div className="about-me">
-
         <div className="bio">
           <h1>
             <strong>Jordan Cheung </strong>
@@ -66,6 +60,14 @@ function App() {
         </div>
 
       </div>
+
+      <br />
+      <hr />
+      <br />
+
+      {/* <div className="weather">
+        <Weather />
+      </div> */}
 
       <br />
       <hr />
@@ -111,19 +113,9 @@ function App() {
           </div>
         </div>
         <br />
-        {/* <ul>
-          <li><strong>Writing samples</strong>: <a href="https://docs.google.com/document/d/1ZY5kjMerwqb-nljdBu77oV2R3gXiWMTi0CKA6PhmHTw/edit?usp=sharing" target="_blank">Technical writing and instructional design works.</a></li>
-          <li><strong>Visual communications</strong>: My redesign of the <a href={designBrief} target="_blank">Seattle Jazz Fellowship brand system</a>.</li>
-          <li><strong>Service design</strong>: My team's end-to-end <a href="https://www.hcde.washington.edu/news/article/2026-08-25/how-hcde-students-helped-rainier-valley-food-bank-see-its-community-new" target="_blank">design improvements for a local food bank</a>.</li>
-          <li><strong>Prototyping explorations</strong>: <a href="https://jxcheung.substack.com/t/hcde351" target="_blank">Mini projects</a>!</li>
-          <li><strong>Physical computing adventures</strong>: <a href="https://jcheung321.github.io/hcde439/">Assignment documentation</a>!</li>
-        </ul> */}
       </div>
 
-      <footer>
-        <br />
-        Copyright &copy; 2026 Jordan Cheung. All rights reserved.
-      </footer>
+      <Foot />
     </body>
   )
 }

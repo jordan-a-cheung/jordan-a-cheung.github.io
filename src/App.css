@@ -42,6 +42,11 @@ body {
   padding: .5rem 1rem;
 }
 
+.nav-bar a:hover {
+  color: black;
+  background: white;
+}
+
 .subnav {
   float: left;
   overflow: hidden;
@@ -133,12 +138,8 @@ svg {
   max-width: 100%;
 }
 
-h1 {
-  font-size: 1.5rem;
-}
-
 footer {
-  font-size: .75rem;
+  font-size: .8rem;
   /* position: fixed;
   bottom: 20px;
   left: 0;
@@ -158,14 +159,12 @@ footer {
 }
 
 .my-face {
-  /* float: right;
-  padding: 0 0 1rem 1rem; */
   text-align: center;
   flex-shrink: 0;
   @media (width < 900px) {
     flex-shrink: 1;
     justify-items: center;
-    font-size: .8rem;
+    /* font-size: .8rem; */
   }
 }
 
